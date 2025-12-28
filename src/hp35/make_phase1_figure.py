@@ -3,7 +3,7 @@
 make_phase1_figure.py
 
 Single Phase-1 figure:
-- window-to-window motif Jaccard (from *_window_telemetry.jsonl)
+- Persistent-contact similarity (from *_window_telemetry.jsonl)
 - regime boundaries (from *_regimes.json)
 - irreversible commitments as tick marks (from *_commitments.json)
 
@@ -63,7 +63,7 @@ def main() -> int:
     ax = plt.gca()
 
     # Main curve: window-to-window jaccard
-    ax.plot(x, y, linewidth=1.0, label="Window motif Jaccard vs previous window")
+    ax.plot(x, y, linewidth=1.0, label="Persistent-contact similarity vs previous window")
 
     # Regime boundaries (vertical lines) + labels
     # draw boundary at each regime start except the first
