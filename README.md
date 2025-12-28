@@ -72,7 +72,11 @@ The primary output is a single Phase-1 figure:
 
 You can regenerate the Phase-1 figure using the included outputs:
 
-python3 src/hp35/make_phase1_figure.py
+python3 src/hp35/make_phase1_figure.py \
+  --telemetry outputs/runs/hp35_first200k_win_clean_window_telemetry.jsonl \
+  --regimes outputs/runs/hp35_first200k_win_clean_regimes.json \
+  --commitments outputs/runs/hp35_first200k_commitments.json \
+  --out outputs/figures/hp35_phase1_single.png
 
 This will produce:
 
