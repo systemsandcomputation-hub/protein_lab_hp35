@@ -68,9 +68,17 @@ Those capabilities exist only in the private invariant engine and are intentiona
 
 ## Outputs
 
-The primary output is a single Phase-1 figure showing:
+The primary output is a single Phase-1 figure:
 
-Window-to-window motif similarity
+You can regenerate the Phase-1 figure using the included outputs:
+
+python3 src/hp35/make_phase1_figure.py
+
+This will produce:
+
+outputs/figures/hp35_phase1_single.png
+
+This produces:
 
 Detected regime boundaries
 
