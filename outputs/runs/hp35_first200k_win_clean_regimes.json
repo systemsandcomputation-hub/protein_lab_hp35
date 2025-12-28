@@ -1,0 +1,33 @@
+{
+  "input": "outputs/processed/hp35_contacts_0p8_first200k.jsonl",
+  "params": {
+    "inp": "outputs/processed/hp35_contacts_0p8_first200k.jsonl",
+    "out_prefix": "hp35_first200k_win_clean",
+    "max_frames": 0,
+    "window_W": 2000,
+    "p_thresh": 0.8,
+    "boundary_jaccard": 0.6,
+    "sustain_windows": 3,
+    "min_regime_windows": 6
+  },
+  "regimes": [
+    {
+      "t_start": 0,
+      "t_end": 103999,
+      "label": "regime_0",
+      "windows": 52
+    },
+    {
+      "t_start": 104000,
+      "t_end": 179999,
+      "label": "regime_1",
+      "windows": 38
+    },
+    {
+      "t_start": 180000,
+      "t_end": 199999,
+      "label": "regime_2",
+      "windows": 10
+    }
+  ]
+}

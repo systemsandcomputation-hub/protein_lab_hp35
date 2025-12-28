@@ -1,0 +1,165 @@
+{
+  "input": "outputs/processed/hp35_contacts_0p8_first200k.jsonl",
+  "params": {
+    "suffix_p": 0.9,
+    "min_suffix_frames": 20000,
+    "frames": 200000
+  },
+  "commitments": [
+    {
+      "t_commit": 110290,
+      "edge": [
+        6,
+        10
+      ]
+    },
+    {
+      "t_commit": 123800,
+      "edge": [
+        20,
+        28
+      ]
+    },
+    {
+      "t_commit": 139780,
+      "edge": [
+        29,
+        33
+      ]
+    },
+    {
+      "t_commit": 164830,
+      "edge": [
+        17,
+        25
+      ]
+    },
+    {
+      "t_commit": 166170,
+      "edge": [
+        18,
+        25
+      ]
+    },
+    {
+      "t_commit": 169470,
+      "edge": [
+        5,
+        9
+      ]
+    },
+    {
+      "t_commit": 171370,
+      "edge": [
+        13,
+        17
+      ]
+    },
+    {
+      "t_commit": 176150,
+      "edge": [
+        28,
+        32
+      ]
+    },
+    {
+      "t_commit": 177310,
+      "edge": [
+        26,
+        30
+      ]
+    },
+    {
+      "t_commit": 179140,
+      "edge": [
+        25,
+        29
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        16,
+        20
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        3,
+        7
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        21,
+        25
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        22,
+        26
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        27,
+        31
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        20,
+        25
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        4,
+        8
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        14,
+        18
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        23,
+        27
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        15,
+        19
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        24,
+        28
+      ]
+    },
+    {
+      "t_commit": 180000,
+      "edge": [
+        20,
+        24
+      ]
+    }
+  ],
+  "n_commitments": 22
+}

@@ -1,0 +1,9 @@
+# raw datasets (not committed)
+data/
+# big intermediate outputs
+outputs/processed/
+# environment junk
+__pycache__/
+*.pyc
+.venv/
+.env
