@@ -11,10 +11,14 @@ It provides a public, inspectable artifact demonstrating how regime structure an
 This repository is designed for demonstration and inspection, not to represent the full invariant engine.
 
 ---
+
 <p align="center">
   <img src="outputs/figures/hp35_phase1_single.png" width="720">
 </p>
+
+
 ---
+
 ## Purpose
 
 The purpose of this repository is to provide:
